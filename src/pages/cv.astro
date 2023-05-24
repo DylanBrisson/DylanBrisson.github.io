@@ -1,0 +1,115 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import TimeLineElement from "../components/cv/TimeLine.astro";
+---
+
+<BaseLayout title="Résumé">
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Introduction</div>
+  </div>
+
+  <div class="mb-10 text-justify">
+    En formation perpétuelle, je suis toujours à la recherche d'innovations, de
+nouveaux programmes et outils de développement, je suis exigeant dans mon code
+et j'ai déjà développé plusieurs projets applications web basées sur les technologies
+Javascript, VueJS, TailWind, PHP, Laravel.
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Formations</div>
+  </div>
+
+  <div class="time-line-container grid gap-4 mb-10">
+    <TimeLineElement
+      title="Développeur web - Intégrateur Web@cademy Dev&Go by Epitech"
+      subtitle="Septembre 2022 - Juin 2023 à Epitech Remote, France"
+      desc="Apprentissage aux langages HTML5 CSS3 et découverte de la librarie TailwindCSS, projets en PHP et apprentissage Laravel, langage JavaScript et framework VueJS. Apprentissage en méthode dite 'Agile'"
+    />
+    <TimeLineElement
+      title="OpenClassRooms"
+      subtitle="Mars 2022 à maintenant - OpenClassRooms, Remote, France"
+      desc="Crée son site internet avec HTML5 et CSS3 - Certification d'OpenClassRooms. Mises en place d'environnement Front-End avec approfondissement de l'IDE VisualStudio Code et DevTools."
+    />
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Experiences</div>
+  </div>
+
+  <div class="time-line-container mb-10">
+    <TimeLineElement
+      title="Création Portfolio Professionnel - AstroJS"
+      subtitle="Mai 2023, Hargnies, France"
+      desc="Création de mon portfolio professionel qui me présente, et met à disposition mes projets récents avec la librarie AstroJS dans un thème simple avec TailWind CSS"
+      desc2="Site web responsive | Résultat LightHouse : SEO 100, Performance 100."
+    />
+    <TimeLineElement
+      title="UCANEL - Union Coopérative Agricole Nord Est Lait - Développeur Web Fullstack Junior"
+      subtitle="Février 2022 à maintenant - UCANEL, Grand-Fayt, France"
+      desc="Refonte du site web vitrine en autonomie en HTML CSS JAVASCRIPT :"
+      desc2="Maquette en amont (UI/UX) | HTML & CSS pour structurer le site | JavaScript pour améliorer l'expérience utilisateur UX grâce à des animations pour rendre plus vivant le site internet."
+      desc3="Refonte de l'extranet de l'entreprise :"
+      desc4="Respect de la charte graphique à celle du site vitrine pour garder une harmonie | Structuration en HTML & CSS à la base | Mise à disposition information destiné aux producteurs grâce aux données stockées sur le serveur interne."
+    />
+    <TimeLineElement
+      title="Développeur Web étudiant"
+      subtitle="En groupe | Septembre 2022 - Janvier 2023"
+      desc="Création de 3 projets en apprentissage autonome :"
+      desc2="'Games games games' Un shop de jeux de société en Responsive avec PHP et le framework Tailwind."
+      desc3="'Le mauvais coin' Un site d'annonce en tout genre avec Laravel et Tailwind."
+      desc4="'Los trellos' Une application web en VueJS et Tailwind qui reprend le principe du site Trello."
+    />
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Certifications</div>
+  </div>
+
+  <ul class="list-disc mx-6 mb-10 grid gap-2">
+    <li class="hover:text-sky-500">
+      <a href="https://openclassrooms.com/fr/course-certificates/6426144642" target="_blank">Mettez en place votre environnement front-end
+      </a>
+    </li>
+    <li class="hover:text-sky-500">
+      <a href="https://openclassrooms.com/fr/course-certificates/2979801133" target="_blank">Créez votre site web avec HTML5 et CSS3</a>
+    </li>
+  </ul>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Hard Skills</div>
+  </div>
+
+  <ul class="list-disc md:columns-5 columns-2 mx-6">
+    <li>HTML5</li>
+    <li>CSS3</li>
+    <li>JavaScript</li>
+    <li>VueJS</li>
+    <li>AstroJS</li>
+    <li>SQL</li>
+    <li>Base de donnée</li>
+    <li>TailWind</li>
+    <li>Wordpress</li>
+    <li>Figma</li>
+    <li>Git</li>
+    <li>GitHub</li>
+    <li>Shell</li>
+    <li>PHP</li>
+    <li>Laravel</li>
+  </ul>
+<br>
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Soft Skills</div>
+  </div>
+
+  <ul class="list-disc mx-6 mb-10 grid gap-2">
+    <li>
+      Curiosité
+    </li>
+    <li>
+      Sens du collectif
+    </li>
+    <li>
+      Créatif
+    </li>
+  </ul>
+</BaseLayout>
